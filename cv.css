@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2") format('woff2');
+}
+
+.cv-cont{
+  background-color: rgb(252, 248, 248);
+  font-family: Arial, sans-serif;
+}
+
+.cv-container {
+  width:800px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.cv-header {
+  
+   
+      position: relative;
+      top: -80px;
+
+}
+
+.cv-header h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  color:rgb(8, 76, 112);
+}
+
+.cv-header p {
+  font-size: 20px;
+  font-weight:600;
+  font-family: 'Open Sans';
+}
+
+.cv-section {
+  position: relative;
+  top: -50px;
+  padding: 10px;
+}
+hr{
+  color:rgb(8, 76, 112);
+  border:2px solid;
+}
+
+.cv-section h2 {
+  font-size: 24px;
+  color:rgb(8, 76, 112);
+  padding:5px;
+}
+
+.cv-item {
+  margin-bottom: 10px;
+}
+p,li{
+  background-color:aliceblue;
+  position:relative;
+  top:-20px;
+}
